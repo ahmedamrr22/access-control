@@ -49,7 +49,7 @@ def voice_assistant():
             print("Assistant: Hi! What can I do for you today?")
 
         elif "who are you" in user_input or "name" in user_input:
-            print("Assistant: I'm a simple Python voice assistant built for testing.")
+            print("Assistant: I'm ahemd's simple Python voice assistant built for testing.")
 
         elif "how's life" in user_input or "how are you" in user_input:
             print("Assistant: Running smoothly! Thanks for asking.")
