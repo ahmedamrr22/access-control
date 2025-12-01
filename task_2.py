@@ -5,7 +5,7 @@ def capture_voice():
     recognizer = sr.Recognizer()
 
     with sr.Microphone() as mic:
-        print("\n► Speak any time...")
+        print("\n Speak any time...")
 
         recognizer.adjust_for_ambient_noise(mic)
 
